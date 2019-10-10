@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
         val i =Intent(this, Registerhere::class.java)
         startActivity(i)
-        val a=Intent(this,Login::class.java)
+        val a=Intent(this, Main2Activity::class.java)
         startActivity(a)
     }
 
