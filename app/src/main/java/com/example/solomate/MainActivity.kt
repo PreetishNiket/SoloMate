@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val i =Intent(this, Registerhere::class.java)
         startActivity(i)
         val a=Intent(this,Login::class.java)
+        startActivity(a)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
